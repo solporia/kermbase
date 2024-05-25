@@ -1,0 +1,224 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "6KWC7yjhTCLQ5eudExB8Ri",
+      "projectApiToken": "ZSj9LOuMr3vcSOifpFXuSL0UOxpGaxCDR56YH0x1S8CmWIgUdNVWv6eD3yvEZraUlpxnYHVRftJzDuV84g",
+      "projectName": "kermbase",
+      "version": "latest",
+      "cssFilePath": "plasmic/kermbase/plasmic.module.css",
+      "components": [
+        {
+          "id": "4YyYAbiGLqwV",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "6KWC7yjhTCLQ5eudExB8Ri",
+          "renderModuleFilePath": "plasmic/kermbase/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/kermbase/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "ZHYnkURlr-sb",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "6KWC7yjhTCLQ5eudExB8Ri",
+          "renderModuleFilePath": "plasmic/kermbase/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/kermbase/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "jbymBSexyaTJ",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "6KWC7yjhTCLQ5eudExB8Ri",
+          "renderModuleFilePath": "plasmic/kermbase/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/kermbase/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "2m3XSFAzu220",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/kermbase/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "Db80fqbXSITu",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/kermbase/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "Xy-tkvDfKMJG",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/kermbase/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "5QAU6WvvdBxb",
+          "name": "CopySvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/kermbase/icons/PlasmicIcon__CopySvgrepoComsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "uRWUjB6y948X",
+          "name": "Red Curtain Web-min.png",
+          "filePath": "../public/plasmic/kermbase/images/redCurtainWebMinpng.png"
+        },
+        {
+          "id": "wppKZseOBMij",
+          "name": "Signage-min.png",
+          "filePath": "../public/plasmic/kermbase/images/signageMinpng.png"
+        },
+        {
+          "id": "rkQJX2FI4Gd8",
+          "name": "Casino BG Web-min.jpg",
+          "filePath": "../public/plasmic/kermbase/images/casinoBgWebMinjpg.jpg"
+        },
+        {
+          "id": "PXymS3vujE1u",
+          "name": "Kerm FG Web-min.png",
+          "filePath": "../public/plasmic/kermbase/images/kermFgWebMinpng.png"
+        },
+        {
+          "id": "tpODF7KvuvC3",
+          "name": "NFT Mint Detail-01-min.png",
+          "filePath": "../public/plasmic/kermbase/images/nftMintDetail01Minpng.png"
+        },
+        {
+          "id": "mhnAKOwUQ9Wp",
+          "name": "NFT Mint Detail-01-mincrop.png",
+          "filePath": "../public/plasmic/kermbase/images/nftMintDetail01Mincroppng.png"
+        },
+        {
+          "id": "fFYjQkRu8mOW",
+          "name": "Tokenomics Copy-01-mincrop.png",
+          "filePath": "../public/plasmic/kermbase/images/tokenomicsCopy01Mincroppng.png"
+        },
+        {
+          "id": "ExkRLvZCoq1-",
+          "name": "image",
+          "filePath": "../public/plasmic/kermbase/images/image.png"
+        },
+        {
+          "id": "pbFB4GRS5N_j",
+          "name": "Kerm FG Web-Green.png",
+          "filePath": "../public/plasmic/kermbase/images/kermFgWebGreenpng.png"
+        },
+        {
+          "id": "SI2Zojo5qCN_",
+          "name": "Kerm FG Web-Green-min.png",
+          "filePath": "../public/plasmic/kermbase/images/kermFgWebGreenMinpng.png"
+        },
+        {
+          "id": "kq5vGgc1uHfP",
+          "name": "Tokenomics Copy-Blast-min.png",
+          "filePath": "../public/plasmic/kermbase/images/tokenomicsCopyBlastMinpng.png"
+        },
+        {
+          "id": "MRKg_L5cGeT7",
+          "name": "NFT Mint Detail-Blast-min.png",
+          "filePath": "../public/plasmic/kermbase/images/nftMintDetailBlastMinpng.png"
+        },
+        {
+          "id": "lN5bz5a87Tja",
+          "name": "NFT Mint Detail-Blast-min.png 2",
+          "filePath": "../public/plasmic/kermbase/images/nftMintDetailBlastMinpng2.png"
+        },
+        {
+          "id": "68oPiHwC3-wn",
+          "name": "Tokenomics Copy-Blast-min.png 2",
+          "filePath": "../public/plasmic/kermbase/images/tokenomicsCopyBlastMinpng2.png"
+        },
+        {
+          "id": "nTI9TlV1JwP4",
+          "name": "X_icon.svg.png",
+          "filePath": "../public/plasmic/kermbase/images/xIconsvgpng.png"
+        },
+        {
+          "id": "JPEhJ5YMYa8f",
+          "name": "WhatsApp Image 2024-05-17 at 12.29.14 AM.jpeg",
+          "filePath": "../public/plasmic/kermbase/images/whatsAppImage20240517At122914AMjpeg.jpg"
+        },
+        {
+          "id": "z6yq5VXs7rx8",
+          "name": "Signage-min22.png",
+          "filePath": "../public/plasmic/kermbase/images/signageMin22Png.png"
+        },
+        {
+          "id": "-Mz81Z6TLaoc",
+          "name": "WhatsApp GIF 2024-05-19 at 3.01.36 PM.gif",
+          "filePath": "../public/plasmic/kermbase/images/whatsAppGif20240519At30136PMgif.gif"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "zKyMb5mLgMIw",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "RUM_R89qIjD6",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "hfG1HNSWFNl1",
+        "name": "Screen",
+        "projectId": "6KWC7yjhTCLQ5eudExB8Ri",
+        "contextFilePath": "plasmic/kermbase/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}

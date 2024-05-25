@@ -1,0 +1,562 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.pageMetadataOverride:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.link__dmLrp {
+  display: flex;
+  background: #ffffff;
+  width: 64px;
+  height: 64px;
+  z-index: 1;
+  left: auto;
+  top: auto;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 8px;
+}
+.img__cWtAq {
+  position: relative;
+  object-fit: cover;
+  width: 42px;
+  height: 42px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.img__cWtAq > picture > img {
+  object-fit: cover;
+}
+.section {
+  display: grid;
+  position: relative;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: url("/plasmic/kermbase/images/casinoBgWebMinjpg.jpg") top 50% left 50% / cover repeat;
+  height: 100vh;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.section > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section {
+    height: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section > * {
+    grid-column: 4;
+  }
+}
+.columns {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  align-items: stretch;
+  flex-shrink: 1;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  --plsmc-rc-col-gap: 0px;
+}
+.columns > :nth-child(2n + 1) {
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
+}
+.columns > :nth-child(2n + 2) {
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .columns {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .columns > :nth-child(1n + 1) {
+    width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
+  }
+}
+.column__bIfa {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.img__lU4Tw {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.img__lU4Tw > picture > img {
+  object-fit: cover;
+}
+.img__gI6F {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__gI6F > picture > img {
+  object-fit: cover;
+}
+.column__cDlpt {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #affc47;
+  min-width: 0;
+  padding: 8px;
+}
+.h1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  min-width: 0;
+}
+.h6__wbbP {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  min-width: 0;
+}
+.freeBox__zvQx0 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox__mtr0C {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.freeBox__mtr0C > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__mtr0C > :global(.__wab_flex-container) > *,
+.freeBox__mtr0C > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__mtr0C > :global(.__wab_flex-container) > picture > img,
+.freeBox__mtr0C
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.h6__dcWN {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.h6__lsm8Q {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.h6__widHn {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.freeBox__douvJ {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.freeBox__douvJ > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__douvJ > :global(.__wab_flex-container) > *,
+.freeBox__douvJ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__douvJ > :global(.__wab_flex-container) > picture > img,
+.freeBox__douvJ
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.h6__xurni {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.h6__qtfQd {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.h6__oqBtm {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.freeBox__hm5X {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.freeBox__hm5X > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__hm5X > :global(.__wab_flex-container) > *,
+.freeBox__hm5X > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__hm5X > :global(.__wab_flex-container) > picture > img,
+.freeBox__hm5X
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.h6__oQbCd {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  padding-right: 0px;
+}
+.h6__eHz8Y {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.h6__fT71R {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.freeBox__kGDet {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.freeBox__kGDet > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__kGDet > :global(.__wab_flex-container) > *,
+.freeBox__kGDet > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__kGDet > :global(.__wab_flex-container) > picture > img,
+.freeBox__kGDet
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.h6__s8CZd {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  padding-right: 0px;
+}
+.h6__aXn24 {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.h6___3IObf {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy";
+}
+.img___0UHll {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img___0UHll > picture > img {
+  object-fit: cover;
+}
+.freeBox__kgw7Q {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 12px 24px;
+}
+.freeBox__kgw7Q > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.freeBox__kgw7Q > :global(.__wab_flex-container) > *,
+.freeBox__kgw7Q > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__kgw7Q > :global(.__wab_flex-container) > picture > img,
+.freeBox__kgw7Q
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.h6___0ScAa {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.text {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+}
+.link__sfeDw {
+  position: relative;
+  display: flex;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.freeBox__oin6W {
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 8px 24px;
+}
+.freeBox__oin6W > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox__oin6W > :global(.__wab_flex-container) > *,
+.freeBox__oin6W > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__oin6W > :global(.__wab_flex-container) > picture > img,
+.freeBox__oin6W
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.textInput:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__vujTx {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg___4Fo1Z {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.freeBox__uoRA {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__uoRA > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.freeBox__uoRA > :global(.__wab_flex-container) > *,
+.freeBox__uoRA > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__uoRA > :global(.__wab_flex-container) > picture > img,
+.freeBox__uoRA
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.button__t5D49:global(.__wab_instance) {
+  max-width: 100%;
+  width: 200px;
+  flex-shrink: 0;
+}
+.svg__qGg3F {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__uqyR {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.button__daT62:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 200px;
+  flex-shrink: 0;
+}
+.svg__ib6W {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__rOeTb {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.h4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  min-width: 0;
+}
